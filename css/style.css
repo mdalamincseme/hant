@@ -1,0 +1,833 @@
+/* ================================
+            BASIC CSS START
+=================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.title h2 span {
+    font-weight: 600;
+}
+
+.title p {
+    font-size: 14px;
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* ================================
+            BASIC CSS END
+=================================== */
+/* ================================
+            NAV CSS START
+=================================== */
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .7s;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition: .7s !important;
+}
+
+nav ul li a:hover {
+    color: #fbaa33;
+}
+
+.fixedmenu {
+    background: black;
+}
+
+/* ================================
+            NAV CSS END
+=================================== */
+
+/* ================================
+        BANNER PART CSS START
+=================================== */
+#banner-part .banner-slider .banner {
+    background: url(../images/banner-1.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .banner-2 {
+    background: url(../images/banner-2.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .banner-3 {
+    background: url(../images/banner-3.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner-slider .overlay {
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    padding: 160px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#banner-part .banner-text h3 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#banner-part .banner-text h3 span {
+    color: #f7980b;
+}
+
+#banner-part .banner-text h1 {
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+#banner-part .banner-text p {
+    max-width: 450px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+#banner-part .banner-text a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 130px;
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 35px 4px 0 10px;
+    z-index: 2;
+    color: #fff;
+    transition: all linear .5s;
+    background: #fbaa33;
+}
+
+#banner-part .banner-text a:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+#banner-part .banner-text .hire {
+    background: transparent;
+    border: 1px solid #fff;
+    display: block;
+    margin: 0 auto;
+    height: 86px;
+    width: 37px;
+    font-size: 14px;
+    padding: 9px 0;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+#banner-part .banner-text .hire .me {
+    margin-top: -33px;
+}
+
+#banner-part .banner-text .hire:hover {
+    background: #fbaa33;
+    border: 1px solid #fbaa33;
+}
+
+#banner-part .prev {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    left: 20px;
+    transform: translateY(50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+#banner-part .prev:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+
+#banner-part .next {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    right: 20px;
+    transform: translateY(50%);
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+#banner-part .next:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+/* ================================
+        BANNER PART CSS END
+=================================== */
+
+/* ================================
+        ABOUT PART CSS START
+=================================== */
+#about-part {
+    margin-top: 100px;
+}
+
+#about-part .images {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#about-part .images img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #fbaa33;
+    border-radius: 5px;
+}
+
+#about-part .details {
+    text-align: left;
+    padding: 0 15px;
+}
+
+#about-part .details_text h2 {
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+#about-part .details_text h2 span {
+    font-weight: 600;
+}
+
+#about-part .details_text h3 {
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+#about-part .details_text h3 span {
+    color: #fbaa33;
+}
+
+#about-part .details_text p {
+    font-size: 14px;
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about-part .social_icon ul {
+    display: flex;
+    padding-left: 0;
+}
+
+#about-part .social_icon ul li {
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+#about-part .social_icon ul li a {
+    color: #000;
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    transition: .7s;
+}
+
+#about-part .social_icon ul li a:hover {
+    color: #fbaa33;
+    border: 2px solid #fbaa33;
+}
+
+/* ================================
+        ABOUT PART CSS END
+=================================== */
+
+/* ================================
+        SERVICE PART CSS START
+=================================== */
+#service-part {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background: #f1f1f1;
+    padding: 60px 0;
+}
+
+
+
+#service-part .service_details {
+    text-align: center;
+    border: 1px solid #d3cfcf;
+    margin: 10px auto;
+    padding: 45px 20px;
+    transition: .7s;
+    border-radius: 5px;
+}
+
+#service-part .service_details:hover {
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#service-part .service_details i {
+    color: #fbaa33;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+#service-part .service_details h4 {
+    color: #000;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+#service-part .service_details h4::after {
+    content: "";
+    height: 2px;
+    width: 45px;
+    background: #fbaa33;
+    position: absolute;
+    top: 86%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    transition: .7s;
+}
+
+#service-part .service_details:hover h4::after {
+    width: 70px;
+}
+
+#service-part .service_details p {
+    font-size: 14px;
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+    width: 315px;
+    padding-top: 10px;
+}
+
+/* ================================
+        SERVICE PART CSS END
+=================================== */
+
+/* ================================
+        HIRE PART CSS START
+=================================== */
+#hire-part {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hire-part h2 {
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ================================
+        HIRE PART CSS END
+=================================== */
+
+/* ================================
+        CLIENTS PART CSS START
+=================================== */
+#client-part {
+    background: #f1f1f1;
+    padding: 60px 0;
+    position: relative;
+}
+
+#client-part .client {
+    text-align: center;
+}
+
+#client-part .client .cl-icon {
+    color: #fbaa33;
+    font-size: 45px;
+}
+
+#client-part .client .cl-image {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #000;
+    margin: 30px auto;
+}
+
+#client-part .client .cl-details {
+    position: relative;
+}
+
+
+
+
+#client-part .client .cl-image img {
+    position: absolute;
+    top: 18px;
+    left: 3px;
+}
+
+#client-part .client .cl-details p {
+    font-size: 16px;
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#client-part .client .cl-details h6 {
+    color: #000000;
+    padding: 30px 0;
+}
+
+#client-part .client .cl-details h6 span {
+    font-weight: 600;
+}
+
+#client-part .slick-dots {
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    transform: translateX(-75%);
+}
+
+#client-part .slick-dots li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+#client-part .slick-dots li button {
+    height: 5px;
+    width: 12px;
+    border-radius: 5px;
+    font-size: 0;
+    background: #d69c46c9;
+    border: 1px solid #d69c46;
+    transition: .4s;
+}
+
+#client-part .slick-dots .slick-active button {
+    background: #fbaa33;
+    border: 1px solid #fbaa33;
+    width: 20px;
+}
+
+/* #client-part .slick-dots .slick-active {
+    background: red;
+} */
+
+/* ================================
+        CLIENTS PART CSS END
+=================================== */
+
+/* ================================
+        WORK PART CSS START
+=================================== */
+#work {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+#work .img {
+    margin: 10px auto;
+}
+
+#work .img .images {
+    position: relative;
+}
+
+#work .img .images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#work .img .images .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.502);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #fff;
+    transition: .7s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#work .img .images .overlay p {
+    font-size: 14px;
+    color: rgba(255, 253, 253, 0.808);
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+#work .img .images .overlay h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#work .img .images:hover .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+/* ================================
+        WORK PART CSS END
+=================================== */
+
+/* ================================
+        BLOG PART CSS START
+=================================== */
+#blog {
+    margin: 50px 0;
+    padding: 50px 0;
+    background: #f1f1f1;
+}
+
+#blog .item {
+    padding: 8px 8px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#blog .images {
+    position: relative;
+}
+
+#blog .images img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#blog .images .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.502);
+    opacity: 0;
+    transition: .7s;
+    border-radius: 5px;
+}
+
+#blog .images .overlay:hover {
+    opacity: 1;
+}
+
+#blog .images .overlay .icon {
+    display: flex;
+    background: rgba(0, 0, 0, 0.568);
+    flex-direction: column;
+    top: 0%;
+    left: 85%;
+    position: absolute;
+    padding: 24px 8px;
+    transition: .7s;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#blog .images .overlay i {
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+    margin: 12px 0;
+    transition: .7s;
+}
+
+#blog .images .overlay .icon i:hover {
+    background: #fbaa33;
+    color: #fff;
+    border: 1px solid #fbaa33;
+}
+
+#blog .item .details {
+    text-align: left;
+}
+
+#blog .item .details h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding-top: 20px;
+}
+
+#blog .item .details p {
+    font-size: 15px;
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    width: 330px;
+}
+
+#blog .item .details p span {
+    color: #fbaa33;
+    font-weight: 600;
+}
+
+#blog .item .details a {
+    color: #2b2821c9;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+/* ================================
+        BLOG PART CSS END
+=================================== */
+
+/*================================
+     MY-CONTACTS PART CSS START 
+ =================================*/
+#contact {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+#contact .item {
+    text-align: center;
+}
+
+#contact .item ul {
+    padding-left: 0;
+}
+
+#contact .item ul i {
+    font-size: 35px;
+    color: #fbaa33;
+}
+
+#contact .item h5 {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#contact .item p {
+    color: rgba(27, 26, 26, 0.596);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact .form-text {}
+
+#contact input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#contact input::placeholder {
+    color: rgba(0, 0, 0, 0.548);
+}
+
+#contact input:focus {
+    border-color: #fbaa33;
+    color: rgba(0, 0, 0, 0.664);
+    box-shadow: 0 0 0 .2rem rgba(47, 253, 5, 0.2);
+}
+
+#contact textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#contact textarea::placeholder {
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+#contact textarea:focus {
+    border-color: #fbaa33;
+    color: rgba(0, 0, 0, 0.664);
+    box-shadow: 0 0 0 .2rem rgba(47, 253, 5, 0.2);
+}
+
+
+#contact .btn button {
+    background: #fbaa33;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+#contact .btn button:hover {
+    background: #f7980b;
+}
+
+#contact .text-align {
+    text-align: center;
+}
+
+/*================================
+     MY-CONTACTS PART CSS END 
+ =================================*/
+
+/*================================
+     FOOTER PART CSS START 
+ =================================*/
+footer {
+    background: #1a1919;
+    padding: 50px 0;
+}
+
+footer .footer-details {
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    height: 35px;
+    width: 35px;
+    background: #585252;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: .7s;
+    color: #f1f1f1;
+}
+
+footer ul li:hover {
+    background: #f7980b;
+    color: #fff;
+}
+
+footer p {
+    color: #585252;
+}
+
+footer p span {
+    color: #f7980b;
+}
+
+/*================================
+     FOOTER PART CSS END 
+ =================================*/
