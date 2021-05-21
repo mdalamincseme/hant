@@ -80,6 +80,10 @@ nav ul li a {
     transition: .7s !important;
 }
 
+nav ul li a.active {
+    color: #fbaa33;
+}
+
 nav ul li a:hover {
     color: #fbaa33;
 }

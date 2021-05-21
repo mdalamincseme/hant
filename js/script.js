@@ -1,3 +1,4 @@
+new WOW().init();
 // sticky-menu
 $(window).scroll(function () {
     if ($(window).scrollTop() > 100) {

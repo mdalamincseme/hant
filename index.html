@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- "===============================
                  STYLESHEET PART END
@@ -20,7 +21,7 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- "===============================
                  NAVBAR PART START
         =================================" -->
@@ -38,25 +39,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#banner-part">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-part">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Services</a>
+                        <a class="nav-link" href="#service-part">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clients</a>
+                        <a class="nav-link" href="#client-part">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#work">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Blog</a>
+                        <a class="nav-link" href="#blog">Our Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -80,7 +81,9 @@
                             <p>I am a professional Photographer. Lorem ipsum dolor, sit amet consectetur
                                 adipisicing
                                 elit. Consequatur, nesciunt..</p>
-                            <a class="hire" href="index.html">hire<div class="me">me</div>
+                            <a class="hire wow bounce" data-wow-iteration="infinite" data-wow-duration="2s"
+                                href="index.html">hire<div class="me">me
+                                </div>
                             </a>
                             <a class="Details" href="index.html">Details</a>
                         </div>
@@ -264,16 +267,6 @@
                  SERVICE PART END
         =================================" -->
 
-    <!-- "===============================
-                 HIRE PART START
-        =================================" -->
-    <!-- <section id="hire-part">
-        <h2>I Am Available For Freelancer.</h2>
-        <a href="#">Download CV</a>
-    </section> -->
-    <!-- "===============================
-                 HIRE PART END
-        =================================" -->
 
     <!-- "===============================
                  CLIENTS PART START
@@ -608,6 +601,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/typed.js@2.0.11"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js//wow.js"></script>
     <script src="js/script.js"></script>
 </body>
 
