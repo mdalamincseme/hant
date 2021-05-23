@@ -255,7 +255,8 @@ nav ul li a:hover {
         ABOUT PART CSS START
 =================================== */
 #about-part {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #about-part .images {
@@ -338,10 +339,10 @@ nav ul li a:hover {
         SERVICE PART CSS START
 =================================== */
 #service-part {
-    margin-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-bottom: 30px;
     background: #f1f1f1;
-    padding: 60px 0;
 }
 
 
@@ -399,30 +400,14 @@ nav ul li a:hover {
         SERVICE PART CSS END
 =================================== */
 
-/* ================================
-        HIRE PART CSS START
-=================================== */
-#hire-part {
-    padding: 100px 0;
-    text-align: center;
-}
-
-#hire-part h2 {
-    font-size: 35px;
-    color: #000000;
-    font-family: 'Raleway', sans-serif;
-}
-
-/* ================================
-        HIRE PART CSS END
-=================================== */
 
 /* ================================
         CLIENTS PART CSS START
 =================================== */
 #client-part {
     background: #f1f1f1;
-    padding: 60px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
 }
 
@@ -516,8 +501,8 @@ nav ul li a:hover {
         WORK PART CSS START
 =================================== */
 #work {
-    margin: 50px 0;
-    padding: 50px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #work .img {
@@ -577,8 +562,9 @@ nav ul li a:hover {
         BLOG PART CSS START
 =================================== */
 #blog {
-    margin: 50px 0;
-    padding: 50px 0;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: #f1f1f1;
 }
 
@@ -686,8 +672,8 @@ nav ul li a:hover {
      MY-CONTACTS PART CSS START 
  =================================*/
 #contact {
-    margin: 50px 0;
-    padding: 50px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #contact .item {
@@ -788,6 +774,19 @@ nav ul li a:hover {
 /*================================
      MY-CONTACTS PART CSS END 
  =================================*/
+.bottom-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #f7980b;
+    color: white;
+    transition: .7s;
+    padding: 5px 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    display: none;
+}
 
 /*================================
      FOOTER PART CSS START 

@@ -7,6 +7,16 @@ $(window).scroll(function () {
         $(".menu").removeClass("fixedmenu")
     }
 })
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+        $(".bottom-to-top").fadeIn()
+    } else {
+        $(".bottom-to-top").fadeOut()
+    }
+})
+
+
 // BANNER-PART  JS START
 
 $('.banner-slider').slick({
